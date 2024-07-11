@@ -1,5 +1,8 @@
-1. HelloWorld
-2. dataType
-3. operators
-4. codingChallenge1
-5. pre_post_Increment
+2.1 HelloWorld
+2.2 dataType
+2.3 operators
+2.4 codingChallenge1
+2.5 pre_post_Increment
+2.6 assigning_variables
+
+3.1 Loops
