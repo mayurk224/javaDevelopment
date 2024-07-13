@@ -10,3 +10,4 @@
 3.3 Nested_for_loop
 3.4 While_loop_Do_While_loop
 3.5 Conditional_Statement
+3.6 Switch_Statement
