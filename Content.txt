@@ -22,3 +22,5 @@
 5.2 characters
 5.3 arrays
 5.4 multidimensional_array
+
+6.1 exercise_6
