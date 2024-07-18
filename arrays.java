@@ -2,6 +2,7 @@ public class arrays {
     public static void main(String[] args) {
         // arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value
         // int[] myarr = {10,2,4,65,46,24};
+        // if an array is initialized with some size it won't get modify(increase or decrease) during runtime
 
         // an array is an object containing a fixed number of values of the same type
         // the elements of an array are indexed, which means we can access them with number called indices.
