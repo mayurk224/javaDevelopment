@@ -28,3 +28,4 @@
 6.3 exercise_8
 6.4 exercise_9
 6.5 exercise_10
+6.6 exercise_11
