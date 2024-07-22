@@ -35,3 +35,4 @@
 6.10 exercise_15
 
 7.1 classes
+7.2 Methods
