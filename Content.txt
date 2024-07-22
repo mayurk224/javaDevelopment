@@ -32,3 +32,4 @@
 6.7 exercise_12
 6.8 exercise_13
 6.9 exercise_14
+6.10 exercise_15
