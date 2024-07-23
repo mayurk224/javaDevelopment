@@ -36,3 +36,4 @@
 
 7.1 classes
 7.2 Methods
+7.3 return_type_of_method
