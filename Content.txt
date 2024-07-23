@@ -38,3 +38,4 @@
 7.2 Methods
 7.3 return_type_of_method
 7.4 method_overloading
+7.5 objects
