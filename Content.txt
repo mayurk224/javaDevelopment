@@ -39,3 +39,4 @@
 7.3 return_type_of_method
 7.4 method_overloading
 7.5 objects
+7.6 constructors

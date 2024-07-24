@@ -26,4 +26,19 @@ public class classes {
     public void Running(){
         System.out.println("Running");
     }
+
+
+    // full constructor
+    // alt + insert -> constructor -> select all local var -> ok
+    public classes(String name, String color, int age, char sex) {
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.sex = sex;
+    }
+
+    // default constructor
+    // alt + insert -> constructor -> select none -> ok
+    public classes() {
+    }
 }
