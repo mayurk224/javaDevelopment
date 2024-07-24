@@ -30,17 +30,19 @@ public class objects {
     public static void main(String[] args) {
         classes stu = new classes();
 
-        stu.name = "Mayur";
-        stu.age = 24;
-        stu.sex = 'm';
-        stu.color = "Asian";
+        // due to making variables private in classes.java file, I comment out below line
+//        stu.name = "Mayur";
+//        stu.age = 24;
+//        stu.sex = 'm';
+//        stu.color = "Asian";
 
         stu.Eating();
         stu.Drinking();
         stu.Running();
 
-        System.out.println(stu.name);
-        System.out.println(stu.age);
-        System.out.println(stu.color);
+        // due to making variables private in classes.java file, I comment out below line
+//        System.out.println(stu.name);
+//        System.out.println(stu.age);
+//        System.out.println(stu.color);
     }
 }

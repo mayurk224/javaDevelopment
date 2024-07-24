@@ -9,9 +9,9 @@ public class classes {
     //Constructors: Special methods used to initialize objects.
 
     // States
-    String name, color;
-    int age;
-    char sex;
+    private String name, color;
+    private int age;
+    private char sex;
 
     // Behaviours = Methods
     // Method: is a block of code which only runs when it gets call.
@@ -40,5 +40,39 @@ public class classes {
     // default constructor
     // alt + insert -> constructor -> select none -> ok
     public classes() {
+    }
+
+
+    // encapsulation part
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    public void setColor(String newColor) {
+        this.color = newColor;
+    }
+
+    public void setAge(int newAge) {
+        this.age = newAge;
+    }
+
+    public void setSex(char newSex) {
+        this.sex = newSex;
     }
 }

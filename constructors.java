@@ -35,7 +35,7 @@ public class constructors {
 
     // full constructor
     // alt + insert -> constructor -> select all local var -> ok
-//    public constructors(String name, String color, int age, char sex) {
+//    public constructors (String name, String color, int age, char sex) {
 //        this.name = name;
 //        this.color = color;
 //        this.age = age;
@@ -52,10 +52,12 @@ public class constructors {
         // creating an object with defaulted (empty) constructor
         // in default or empty constructor, String is null, int is 0, boolean is false
         classes stu = new classes();
-        System.out.println(stu.name);
+        // due to making variables private in classes.java file, i comment out below line
+        //System.out.println(stu.name);
 
         // creating an object with all values to the constructor
         classes stu2 = new classes("Mayur","asian",24,'m');
-        System.out.println(stu2.name);
+        // due to making variables private in classes.java file, i comment out below line
+        //System.out.println(stu2.name);
     }
 }
