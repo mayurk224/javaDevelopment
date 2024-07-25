@@ -12,6 +12,8 @@ public class classes {
     private String name, color;
     private int age;
     private char sex;
+    private static int id = 0;
+    String publicName;
 
     // Behaviours = Methods
     // Method: is a block of code which only runs when it gets call.
@@ -27,6 +29,13 @@ public class classes {
         System.out.println("Running");
     }
 
+    // CHECK static_non_static.java file:
+    // this method is just to check this below statement:
+    // Non-static var cannot be accessed inside a static method
+    public static void non_static_var_test(){
+       // id; // this is static var
+    }
+
 
     // full constructor
     // alt + insert -> constructor -> select all local var -> ok
@@ -35,11 +44,13 @@ public class classes {
         this.color = color;
         this.age = age;
         this.sex = sex;
+        id++;
     }
 
     // default constructor
     // alt + insert -> constructor -> select none -> ok
     public classes() {
+        id++;
     }
 
 
@@ -58,6 +69,10 @@ public class classes {
 
     public char getSex() {
         return sex;
+    }
+
+    public static int getId() {
+        return id;
     }
 
     public void setName(String newName) {
