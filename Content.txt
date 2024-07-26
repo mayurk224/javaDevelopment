@@ -45,3 +45,4 @@
 7.9 packages
 7.10 static_non_static
 7.11 non_access_modifier
+7.12 inheritance
