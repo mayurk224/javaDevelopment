@@ -14,6 +14,7 @@ public class classes {
     private char sex;
     private static int id = 0;
     String publicName;
+    final double pi = 3.14;
 
     // Behaviours = Methods
     // Method: is a block of code which only runs when it gets call.
