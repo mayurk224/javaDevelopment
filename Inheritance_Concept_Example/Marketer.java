@@ -6,4 +6,11 @@ public class Marketer extends Employee{
     public boolean isInsideMarket() {
         return true;
     }
+
+    // change working hours from 40 to 50 :
+
+    @Override
+    public int getHours() {
+        return 50;
+    }
 }
