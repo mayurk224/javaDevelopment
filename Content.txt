@@ -46,3 +46,5 @@
 7.10 static_non_static
 7.11 non_access_modifier
 7.12 inheritance
+7.13 inheritance_concept_example
+7.14 super_keyword
