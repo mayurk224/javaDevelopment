@@ -43,5 +43,18 @@ public class Main {
         Employee e4 = new Marketer();
 
         System.out.println(e1.getSalary());
+
+        // ** Polymorphism Mechanism **
+
+        // how to access the non-common method from any class
+        // first cast with class name then type var name then that method is available
+
+        // e4.isInsideMarket(); // its looking for this method inside the
+        //                       Employee class, e4 is only reference to
+        //                       the Marketer object. so this will give
+        //                       error
+
+        // how to resolve & access it ...
+        ((Marketer)e4).isInsideMarket();
     }
 }
