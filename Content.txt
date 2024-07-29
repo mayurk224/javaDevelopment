@@ -52,3 +52,5 @@
 7.16 objects_II
 7.17 polymorphism
 7.18 polymorphism_mechanism
+
+8.1 composition
