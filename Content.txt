@@ -54,3 +54,4 @@
 7.18 polymorphism_mechanism
 
 8.1 composition
+8.2 composition_vs_inheritance
