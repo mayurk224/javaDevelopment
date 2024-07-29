@@ -56,3 +56,4 @@
 8.1 composition
 8.2 composition_vs_inheritance
 8.3 interfaces
+8.4 inheritance_example
