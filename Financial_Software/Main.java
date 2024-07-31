@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
         // Case Study: Financial Software
 
-        // Lets consider the problem of gathering info about a person financial inverstments.
-        // we have Stocks, Dividend Stocks, Mutual Funds, Real Estate, Case ...
+        // Let's consider the problem of gathering info about a person financial investments.
+        // We have Stocks, Dividend Stocks, Mutual Funds, Real Estate, Case ...
 
         // How to assign a complete portfolio system?
         // What now types of objects would you write?
 
-        // Classes: Stocks, Dividend Stocks, Mutual Funds, Cash (Real Estate is not necessary we considered as cash)
-        // Relation: Dividend Stock is a Stock
+        // STEP 1: Classes - Stocks, Dividend Stocks, Mutual Funds, Cash (Real Estate is not necessary we considered as cash)
+        // STEP 2: Relation - Dividend Stock is a Stock
 
-        // Because different assets compute their market value in different way
+        // STEP 3: Because different assets compute their market value in different way
         // so for that, we will use the interface: to getMarket Value and getPortfolio.
 
         // [ CASE STUDY 1: in this topic we created required classes for our
@@ -26,11 +26,15 @@ public class Main {
         // Cash class to hold amount, added getter_setter & parametric constructor.
         // Then we return amount in getMarketValue() override method. And for
         // getProfit() override method we return it as 0, because we consider
-        // cash as a fixed asset so, there will be no profit.]
+        // cash as a fixed asset, so there will be no profit.]
 
         //                       ------*******-------
 
+        // Case Study: Financial Software II
 
+        // STEP 4: what is similarities between mutual funds and stocks?
+        // both store assets that are based on shares
 
+        //                      ------*******-------
     }
 }
