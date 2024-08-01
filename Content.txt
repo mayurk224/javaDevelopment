@@ -59,4 +59,5 @@
 8.4 inheritance_example
 8.5 abstract_class
 8.6 case_study_Financial_Software
-8.7 case_study-Financial_Software_II
+8.7 case_study_Financial_Software_II
+8.8 case_study_Financial_Software_III

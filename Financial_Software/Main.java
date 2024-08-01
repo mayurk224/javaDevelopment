@@ -36,5 +36,10 @@ public class Main {
         // both store assets that are based on shares
 
         //                      ------*******-------
+
+        // Case Study: Financial Software III
+
+        Assets assets = new MutualFund("AMZ", 300);
+        System.out.println(assets.getMarketValue());
     }
 }

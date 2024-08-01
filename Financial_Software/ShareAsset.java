@@ -1,6 +1,6 @@
 package Financial_Software;
 
-public class ShareAsset {
+public abstract class ShareAsset implements Assets{
 
     // This is a redundant code
     // ShareAsset: is a class, everything that based on shares like stocks
@@ -12,6 +12,7 @@ public class ShareAsset {
     public ShareAsset(String symbol, double currentPrice) {
         this.symbol = symbol;
         this.currentPrice = currentPrice;
+        totalCost = 0.0;
     }
 
     // adds a cost of the given amount to this asset
@@ -32,4 +33,12 @@ public class ShareAsset {
         return totalCost;
     }
 
+    // returns the current market value of this asset
+    public abstract double getMarketValue();
+
+    // returns the profit earned on shares of this asset
+    public double getProfit(){
+        // calls an abstract getMarketValue method
+        return getMarketValue() - totalCost;
+    }
 }

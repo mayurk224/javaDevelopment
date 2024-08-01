@@ -1,6 +1,6 @@
 package Financial_Software;
 
-public class Stocks extends ShareAsset implements Assets{
+public class Stocks extends ShareAsset{
 
     private int totalShares;
 
@@ -12,11 +12,6 @@ public class Stocks extends ShareAsset implements Assets{
     @Override
     public double getMarketValue() {
         return totalShares * getCurrentPrice();
-    }
-
-    @Override
-    public double getProfit() {
-        return getMarketValue() - getTotalCost();
     }
 
     public int getTotalShares() {
