@@ -64,3 +64,4 @@
 
 9.1 arraylist
 9.2 creating_arrayList
+9.3 remove_elem_arrayList

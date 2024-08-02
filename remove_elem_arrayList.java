@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class creating_arrayList {
+public class remove_elem_arrayList {
     public static void main(String[] args) {
         // 1. Creating Arraylist of type String
         ArrayList<String> list = new ArrayList<>();
@@ -15,6 +15,18 @@ public class creating_arrayList {
 
         // 4. Adding an element a specific Position
         list.add(2,"Mayur");
+        System.out.println(list);
+
+        // 5. Change an element in arraylist
+        list.set(0,"Changed");
+        System.out.println(list);
+
+        //6. Remove an element by index from arraylist
+        list.remove(1);
+        System.out.println(list);
+
+        // 7. Remove an element by object from arraylist
+        list.remove("Mayur");
         System.out.println(list);
     }
 }
