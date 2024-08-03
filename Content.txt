@@ -66,3 +66,4 @@
 9.2 creating_arrayList
 9.3 remove_elem_arrayList
 9.4 iterate_arrayList
+6.5 wrapper_class
