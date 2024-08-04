@@ -69,3 +69,5 @@
 6.5 wrapper_class
 6.6 boxing_unboxing
 6.7 comparable_Interface
+
+10.1 collection
