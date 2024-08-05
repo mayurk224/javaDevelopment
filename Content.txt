@@ -76,3 +76,4 @@
 10.4 set
 10.5 Hash_Set
 10.6 Linked_Hash_Set
+10.7 Tree_Set
