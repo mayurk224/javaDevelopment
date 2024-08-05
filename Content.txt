@@ -66,9 +66,10 @@
 9.2 creating_arrayList
 9.3 remove_elem_arrayList
 9.4 iterate_arrayList
-6.5 wrapper_class
-6.6 boxing_unboxing
-6.7 comparable_Interface
+9.5 wrapper_class
+9.6 boxing_unboxing
+9.7 comparable_Interface
 
 10.1 collections
 10.2 iterable_iterator
+10.3 collection_interface
