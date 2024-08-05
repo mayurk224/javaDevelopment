@@ -5,6 +5,8 @@ import java.util.Set;
 public class Hash_Set {
     public static void main(String[] args) {
 
+        // HashSet: used a hash table for storage that places element into
+        // specific position based upon integers called hash code
         Set<String> s = new HashSet<>();
         s.add("Mayur");
         s.add("Mayur");
