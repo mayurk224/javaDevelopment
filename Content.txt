@@ -74,3 +74,4 @@
 10.2 iterable_iterator
 10.3 collection_interface
 10.4 set
+10.5 Hash_Set
