@@ -79,3 +79,4 @@
 10.7 Tree_Set
 10.8 Lottery_Software
 10.9 Linked_list
+10.10 Stack_list
