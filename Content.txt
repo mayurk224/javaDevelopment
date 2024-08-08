@@ -81,3 +81,4 @@
 10.9 Linked_list
 10.10 Stack_list
 10.11 Queue_interface
+10.12 Map_interface
