@@ -67,5 +67,6 @@ public class Map_interface {
         System.out.println(m.keySet());
         System.out.println(m.isEmpty());
         System.out.println(m.entrySet());
+        System.out.println(m.values());
     }
 }
