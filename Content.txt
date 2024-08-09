@@ -96,3 +96,4 @@
 12.2 why_use_Generics
 12.3 generic_method
 12.4 generic_class
+12.5 generic_interface
