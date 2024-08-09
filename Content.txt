@@ -95,3 +95,4 @@
 12.1 intro_to_Generics
 12.2 why_use_Generics
 12.3 generic_method
+12.4 generic_class
