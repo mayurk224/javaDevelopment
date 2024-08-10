@@ -98,3 +98,4 @@
 12.4 generic_class
 12.5 generic_interface
 12.6 wild_card_joker
+12.7 wild_card_constraints
