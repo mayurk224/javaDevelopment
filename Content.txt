@@ -108,3 +108,4 @@
 13.5 JScrollPane_
 13.6 JSplitPane_
 13.7 JTabbedPane_
+13.8 JToolBar_
