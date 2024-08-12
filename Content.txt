@@ -106,3 +106,4 @@
 13.3 J_Frame
 13.4 JPanel_
 13.5 JScrollPane_
+13.6 JSplitPane_
