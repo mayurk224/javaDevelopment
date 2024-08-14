@@ -121,3 +121,4 @@
 13.18 JTable_DefaultTableModel
 13.19 BorderLayout_
 13.20 GridLayout_
+13.21 FlowLayout_
