@@ -116,3 +116,4 @@
 13.13 JList_
 13.14 JSlider_
 13.15 JRadioButton_
+13.16 JTextArea_
