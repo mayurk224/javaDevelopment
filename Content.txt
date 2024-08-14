@@ -114,3 +114,4 @@
 13.11 JTextField_
 13.12 JComboBox_
 13.13 JList_
+13.14 JSlider_

@@ -1,8 +1,10 @@
 package Graphical_User_Interface;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 public class JList_ {
 
@@ -91,46 +93,70 @@ public class JList_ {
     //
     //`JList` is a powerful component in the Java Swing library that provides extensive functionality for displaying and interacting with lists of items. Its flexibility, customization options, and ease of integration make it a go-to choice for many types of applications.
 
+//    public static void main(String[] args) {
+//        // Create a new JFrame with a title
+//        JFrame frame = new JFrame("JList Example");
+//
+//        // Set frame properties
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setSize(400, 300);
+//        frame.setLayout(null);
+//
+//        // Create an array of items to display in the JList
+//        String[] items = {"Apple", "Banana", "Cherry", "Date", "Grape"};
+//
+//        // Create the JList with the items
+//        JList<String> list = new JList<>(items);
+//        list.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+//        list.setBounds(50, 50, 150, 100);
+//
+//        // Create a JScrollPane to add scrolling capability to the JList
+//        JScrollPane scrollPane = new JScrollPane(list);
+//        scrollPane.setBounds(50, 50, 150, 100);
+//
+//        // Create a button to show the selected items
+//        JButton button = new JButton("Show Selected");
+//        button.setBounds(220, 50, 120, 30);
+//
+//        // Add ActionListener to the button
+//        button.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                // Get the selected items from the list
+//                List<String> selectedItems = list.getSelectedValuesList();
+//                System.out.println("Selected items: " + selectedItems);
+//            }
+//        });
+//
+//        // Add components to the frame
+//        frame.add(scrollPane);
+//        frame.add(button);
+//
+//        // Make the frame visible
+//        frame.setVisible(true);
+//    }
+
     public static void main(String[] args) {
-        // Create a new JFrame with a title
-        JFrame frame = new JFrame("JList Example");
+        JFrame f = new JFrame("JList");
+        f.setBounds(0,0,500,500);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setVisible(true);
+        f.setLayout(new FlowLayout());
 
-        // Set frame properties
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
-        frame.setLayout(null);
+        String[] s = {"Apple", "Mango", "Banana", "Grapes"};
+        JList<String> jl = new JList<>(s);
+        jl.setBounds(100,100,200,200);
 
-        // Create an array of items to display in the JList
-        String[] items = {"Apple", "Banana", "Cherry", "Date", "Grape"};
-
-        // Create the JList with the items
-        JList<String> list = new JList<>(items);
-        list.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-        list.setBounds(50, 50, 150, 100);
-
-        // Create a JScrollPane to add scrolling capability to the JList
-        JScrollPane scrollPane = new JScrollPane(list);
-        scrollPane.setBounds(50, 50, 150, 100);
-
-        // Create a button to show the selected items
-        JButton button = new JButton("Show Selected");
-        button.setBounds(220, 50, 120, 30);
-
-        // Add ActionListener to the button
-        button.addActionListener(new ActionListener() {
+        JButton b = new JButton("Click");
+        b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Get the selected items from the list
-                java.util.List<String> selectedItems = list.getSelectedValuesList();
-                System.out.println("Selected items: " + selectedItems);
+                List<String> l = jl.getSelectedValuesList();
+                System.out.println(l);
             }
         });
 
-        // Add components to the frame
-        frame.add(scrollPane);
-        frame.add(button);
-
-        // Make the frame visible
-        frame.setVisible(true);
+        f.add(b);
+        f.add(jl);
     }
 }
