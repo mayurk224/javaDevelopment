@@ -122,3 +122,4 @@
 13.19 BorderLayout_
 13.20 GridLayout_
 13.21 FlowLayout_
+13.22 BoxLayout_
