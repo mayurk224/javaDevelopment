@@ -119,4 +119,5 @@
 13.16 JTextArea_
 13.17 JMenu_JMenuBar
 13.18 JTable_DefaultTableModel
-13.19 Border_Layout
+13.19 BorderLayout_
+13.20 GridLayout_
