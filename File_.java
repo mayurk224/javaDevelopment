@@ -63,7 +63,7 @@ public class File_ {
                 System.out.println(f.length() );
 
                 // example 2
-                File f1 = new File("hello.txt");
+                File f1 = new File("test_file_created_by_File_.txt");
                 try {
                     if(f1.createNewFile()){
                         System.out.println("File Created: "+f1.getAbsoluteFile());
