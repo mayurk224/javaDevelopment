@@ -28,6 +28,14 @@ public class MainScreen extends JFrame {
     SimpleDateFormat df;
     Date currentDate;
 
+
+    JCheckBox chbkSports;
+    JCheckBox chbkMovies;
+    JCheckBox chbkNews;
+    JCheckBox chbkKids;
+    JCheckBox chbkDocumentaries;
+    JPanel packagePanel;
+
     public MainScreen() {
         setTitle("TV Management System");
         setSize(1280, 720);
@@ -129,6 +137,57 @@ public class MainScreen extends JFrame {
 
 // Add wrapper to JFrame (CENTER area or as needed)
         add(wrapperPanel, BorderLayout.CENTER);
+
+
+
+        // === Package Panel ===
+        packagePanel = new JPanel(new GridBagLayout());
+        packagePanel.setBorder(BorderFactory.createTitledBorder(
+                BorderFactory.createLineBorder(Color.GRAY),
+                "Package Info", TitledBorder.LEFT, TitledBorder.TOP
+        ));
+
+        GridBagConstraints gbcPackage = new GridBagConstraints();
+        gbcPackage.insets = new Insets(5, 10, 5, 10);
+        gbcPackage.anchor = GridBagConstraints.WEST;
+        gbcPackage.gridx = 0;
+        gbcPackage.gridy = 0;
+
+// Checkboxes
+        chbkSports = new JCheckBox("Sports");
+        chbkMovies = new JCheckBox("Movies");
+        chbkNews = new JCheckBox("News");
+        chbkKids = new JCheckBox("Kids");
+        chbkDocumentaries = new JCheckBox("Documentaries");
+
+// Add checkboxes
+        packagePanel.add(chbkSports, gbcPackage);
+        gbcPackage.gridy++;
+        packagePanel.add(chbkMovies, gbcPackage);
+        gbcPackage.gridy++;
+        packagePanel.add(chbkNews, gbcPackage);
+        gbcPackage.gridy++;
+        packagePanel.add(chbkKids, gbcPackage);
+        gbcPackage.gridy++;
+        packagePanel.add(chbkDocumentaries, gbcPackage);
+
+// Add Subscribe button
+        gbcPackage.gridy++;
+        gbcPackage.anchor = GridBagConstraints.CENTER;
+        gbcPackage.gridx = 0;
+        gbcPackage.gridwidth = 2;
+
+        JButton subscribeButton = new JButton("Subscribe");
+        packagePanel.add(subscribeButton, gbcPackage);
+
+// Add package panel to wrapper
+        wrapperPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
+        wrapperPanel.add(packagePanel);
+
+// Add wrapper to JFrame (bottom)
+        add(wrapperPanel, BorderLayout.SOUTH);
+
+
 
 
 
