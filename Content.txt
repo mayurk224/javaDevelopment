@@ -141,4 +141,3 @@
 16.9 Writer_
 16.10 StringReader_
 
-17 TV_MANAGEMENT_SYSTEM (Project #3)
